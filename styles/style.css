@@ -5,9 +5,17 @@ img {
     border-radius: 25px;
     margin: 4px;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
 .grid {
     display: grid;
+    width:fit-content;
     grid-template-columns: repeat(3, 1fr);
+    /* margin-left: 20%; */
 }
 @media (max-width: 960px) {
     .grid {
@@ -19,5 +27,5 @@ img {
 } 
 
 .grid div{
-    /* width: fit-content; */
+    width: fit-content;
 }
