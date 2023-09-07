@@ -10,12 +10,18 @@ body {
     width: 100vw;
     height: 100vh;
 }
-
+header {
+    display: flex;
+    justify-content: center;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
 .grid {
     display: grid;
     width:fit-content;
     grid-template-columns: repeat(3, 1fr);
-    /* margin-left: 20%; */
 }
 @media (max-width: 960px) {
     .grid {
@@ -25,7 +31,6 @@ body {
     }
     
 } 
-
 .grid div{
     width: fit-content;
 }
