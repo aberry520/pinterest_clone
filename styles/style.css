@@ -5,3 +5,19 @@ img {
     border-radius: 25px;
     margin: 4px;
 }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 960px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: aqua;
+    }
+    
+} 
+
+.grid div{
+    /* width: fit-content; */
+}
